@@ -24,4 +24,4 @@ yarn-error.log*
 hinweis.txt
 
 # API
-clarifaiAPI.json
+clarifaiAPI.js

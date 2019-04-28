@@ -8,11 +8,13 @@ import Rank from "./components/Rank/Rank";
 import Particles from "react-particles-js";
 import Clarifai from "clarifai";
 import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
+import "./clarifaiAPI.js"
 import "./App.css";
+import { api } from "./clarifaiAPI";
 
 // initialize with your api key. This will also work in your browser via http://browserify.org/
 const app = new Clarifai.App({
-  apiKey: "yyyyyy"
+  apiKey: api.key 
 });
 
 const particlesOptions = {
