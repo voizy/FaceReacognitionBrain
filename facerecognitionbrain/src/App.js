@@ -12,7 +12,7 @@ import "./App.css";
 
 // initialize with your api key. This will also work in your browser via http://browserify.org/
 const app = new Clarifai.App({
-  apiKey: "bde092306fb047b8988e0d9a7431a2b0"
+  apiKey: "yyyyyy"
 });
 
 const particlesOptions = {
